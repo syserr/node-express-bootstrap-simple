@@ -1,0 +1,32 @@
+=node-express-bootstrap-simple=
+
+This is about the simplest demonstration of Node.js/Express.js working with Bootstrap.  This is a sister demo to my project sinatra-bootstrap-simple -- they do the exact same thing.
+
+Simple:
+* decreases dependencies
+* shows a reader what is actually required
+
+Included:
+* **package.json** -- so you know the dependencies
+* (Twitter) **Bootstrap 3.3.5** - unpacked in public/(css,js,fonts)
+* **JQuery 1.11.3** that the Bootstrap examples used - unpacked in public
+
+//Note: I am not an expert. (yet)//
+
+It played well with Node v4.2.2 and NPM 2.14.7.
+
+==Starting from ground zero
+
+On Linux I can do this as a non-root user (I'm sure OSX is similar):
+{{{
+wget https://nodejs.org/dist/v4.2.2/node-v4.2.2-linux-x64.tar.gz
+tar -xzf node-v4.2.2-linux-x64.tar.gz
+cd node-v4.2.2-linux-x64
+export PATH=~/node-v4.2.2-linux-x64/bin:$PATH
+git clone https://github.com/syserr/node-express-bootstrap-simple
+cd node-express-bootstrap-simple
+npm install
+npm start
+}}}
+==Wow, that's it?
+Yes, Node.js/Express.js using Bootstrap in just a few minutes.
