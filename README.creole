@@ -30,3 +30,6 @@ npm start
 }}}
 ==Wow, that's it?
 Yes, Node.js/Express.js using Bootstrap in just a few minutes.
+
+==Thoughts
+The documentation on using a layout in Express.js is sparse and all over the place.  That was the most difficult part of this demo.  I believe Express (proper) didn't have layouts until recently.  Many different implementations by anyone that can make an npm, then a few tries at a blessed approach.  So the latest and greatest works pretty well, but I found many many ways to do it wrong and depreciated before I found "the right way."  This seems to be a problem in web development but Node seems particularly bad -- so many helper implementations trying to fill a void because frameworks are immature.  I almost went with Koa framework for the demo, but some of the syntax wasn't appealing and didn't love the how layouts worked.  Koa is probably better, but I wanted mainstream.
